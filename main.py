@@ -7,6 +7,7 @@ conn = pyodbc.connect(driver='{ODBC Driver 17 for SQL Server}',
                       database='enter database_name',
                       uid='enter user_name', pwd='enter password')
 #created app for fast api
+#created app for fast api22
 app = FastAPI()
 
 class Item(BaseModel):
